@@ -12,4 +12,4 @@ eabcd<br>
 This would be one such cycle. We could repeat this for the 4 other groups of 5 letters, resulting in 25 guesses, and adding the 5 guesses needed to place z in each position leaves us with a total of 30 guesses. Of course, abcde, bcdea, etc. are not words, so finding perfect cycles like this is impossible.
 
 ## Current Solution
-The current solution is 36 guesses. It can be found [here](https://github.com/Thomas-Langford/Kilordle-Solver/blob/main/out.txt)
+The current solution is 36 guesses. It can be found [here](https://github.com/Thomas-Langford/Kilordle-Solver/blob/main/out.txt). The code to generate this solution used the list of possible guesses for the kilordle, which can be found [here](https://github.com/jonesnxt/kilordle/blob/main/src/util/words.ts).
